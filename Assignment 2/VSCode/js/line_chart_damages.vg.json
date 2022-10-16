@@ -1,11 +1,10 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "description": "Multi-series line chart with labels and interactive highlight on hover.  We also set the selection's initial value to provide a better screenshot",
-    "data": {"url": "data/stocks.csv"},
-    "transform": [{"filter": "datum.symbol!=='IBM'"}],
+    "data": {"url": "https://raw.githubusercontent.com/gaikouteki/project/main/Assignment%202/datasets/cleaned/natural-disasters(updated).csv"},
     "encoding": {
-      "x": {"field": "date", "type": "temporal", "title": "date"},
-      "y": {"field": "price", "type": "quantitative", "title": "price"},
+      "x": {"field": "Year", "type": "temporal", "title": "Year"},
+      "y": {"field": "Total economic damages from earthquakes", "type": "quantitative", "title": "Price"},
       "color": {
         "condition": {
           "param": "hover",
