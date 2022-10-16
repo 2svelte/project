@@ -76,7 +76,15 @@
     font-family: "Courier New", Courier, monospace;
     font-size: 20px;
     margin-top: 100px;
-    float: center;
+    float: left;
+  }
+
+
+  #tornado_map {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 20px;
+    margin-top: 100px;
+    float: right;
   }
 
 
@@ -87,7 +95,7 @@
 <body>
 
   <header>
-    <h1>Natural Disasters from 1900 to 2022</h1>
+    <h1>Natural Disaster Information</h1>
   </header>
 
   <div id = "tsunami_map"></div> 
@@ -111,13 +119,10 @@
     </p>
   </article>  
 
+
   <div id = "radial_plot_displacement"></div>
-
-
   <div id = "bubble_plot_death"></div>
-
-
-
+  <div id = "tornado_map"></div>
 
 
 
@@ -134,6 +139,9 @@
 
   var spec4 = "js/radial_plot_displacement.vg.json";
   vegaEmbed('#radial_plot_displacement', spec4).then(function(result) {}).catch(console.error);
+
+  var spec5 = "js/tornado_map.vg.json";
+  vegaEmbed('#tornado_map', spec5).then(function(result) {}).catch(console.error);
 
 </script>
 

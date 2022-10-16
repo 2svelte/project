@@ -6,3 +6,4 @@ Internal Displacement Monitoring Centre (via World Bank)
 
 https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php
 https://www.kaggle.com/datasets/andrewmvd/tsunami-dataset
+https://www.kaggle.com/datasets/atinakarim/noaa-severe-storm-database?select=tornado_path.csv
