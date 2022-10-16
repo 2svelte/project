@@ -41,7 +41,7 @@
       
       "data": {  
         "name": "earthquake",
-        "url": "https://raw.githubusercontent.com/vega/vega/main/docs/data/earthquakes.json",
+        "url": "https://raw.githubusercontent.com/gaikouteki/project/main/Assignment%202/VSCode/js/earthquake_dataset_cleaned.geojson",
         "format": {"type": "json", "property": "features"}
 
       },

@@ -4,8 +4,8 @@
     "url": "https://raw.githubusercontent.com/gaikouteki/project/main/Assignment%202/datasets/cleaned/natural_disasters_death(cleaned).csv"
   },
   "title": "Total Deaths by Natural Disasters",
-  "width": 400,
-  "height": 300,
+  "width": 600,
+  "height": 400,
   "mark": {
     "type": "circle",
     "opacity": 0.8,
@@ -27,8 +27,9 @@
       "scale": {"rangeMax": 5000}
     },
     "color": {"field": "Disaster", "type": "nominal", "legend": null},
-    "tooltip": [{"field": "Deaths"}]
+    "tooltip": [ {"field": "Deaths"}]
   }
+  
 }
 
   
