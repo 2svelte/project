@@ -1,12 +1,204 @@
-Hazard Type,Disaster Internal Displacements
-Drought,2593437
-Dry mass movement,130731
-Earthquake,34183800
-Extreme temperature,1165002
-Flood,166194893
-Mass movement,14008
-Severe winter condition,810
-Storm,130733046
-Volcanic eruption,2422030
-Wet Mass Movement,1093315
-Wildfire,3809749
+Country / Territory,Disaster Internal Displacements
+Abyei Area,40002
+Afghanistan,891820
+Albania,44563
+Algeria,73056
+American Samoa,4990
+Angola,493793
+Anguilla,500
+Antigua and Barbuda,1445
+Argentina,159466
+Australia,226236
+Austria,1580
+Azerbaijan,68730
+Bahamas,18430
+Bangladesh,15521019
+Barbados,570
+Belgium,16174
+Belize,10570
+Benin,538984
+Bermuda,50
+Bhutan,23716
+Bolivia,430139
+Bosnia and Herzegovina,92459
+Botswana,8700
+Brazil,2829973
+British Virgin Islands,6000
+Brunei Darussalam,145
+Bulgaria,5341
+Burkina Faso,254920
+Burundi,238821
+Cabo Verde,3740
+Cambodia,827237
+Cameroon,200299
+Canada,465379
+Cayman Islands,761
+Central African Republic,223140
+Chad,819491
+Chile,4126679
+China,92786839
+Colombia,3581051
+Comoros,42094
+Congo,172702
+Cook Islands,668
+Costa Rica,46586
+Croatia,60982
+Cuba,6796863
+Cyprus,107
+Czech Republic,28875
+C�te d'Ivoire,20342
+Dem. People's Rep. Korea,565700
+Dem. Rep. Congo,1910055
+Djibouti,19411
+Dominica,36170
+Dominican Republic,318550
+Ecuador,333935
+Egypt,30628
+El Salvador,119939
+Eritrea,100
+Eswatini,221
+Ethiopia,2803122
+Fiji,202916
+Finland,101
+France,69900
+French Guiana,140
+French Polynesia,4657
+Gabon,4170
+Gambia,62968
+Georgia,3403
+Germany,73699
+Ghana,277254
+Greece,103844
+Greenland,248
+Grenada,199
+Guam,2839
+Guatemala,737012
+Guinea,49379
+Guinea-Bissau,6860
+Guyana,583
+Haiti,2256871
+Honduras,1053742
+"Hong Kong, China",5680
+Hungary,1816
+Iceland,859
+India,53413910
+Indonesia,7553230
+Iran,984932
+Iraq,149760
+Ireland,1738
+Israel,91693
+Italy,142409
+Jamaica,7078
+Japan,4610134
+Jordan,2766
+Kazakhstan,79071
+Kenya,1418112
+Kiribati,2585
+Korea,50375
+Kosovo,1080
+Kyrgyzstan,15216
+Lao PDR,244788
+Latvia,24
+Lebanon,6556
+Lesotho,13130
+Liberia,32030
+Libya,8830
+Luxembourg,752
+"Macao, China",8560
+Madagascar,1050919
+Malawi,689044
+Malaysia,789437
+Maldives,390
+Mali,113090
+Marshall Islands,2000
+Martinique,2
+Mauritania,21170
+Mauritius,6534
+Mayotte,10450
+Mexico,2470346
+"Micronesia, Fed. Sts.",6800
+Moldova,200
+Mongolia,39263
+Montenegro,2608
+Morocco,22832
+Mozambique,1363169
+Myanmar,6003207
+Namibia,148376
+Nepal,3653258
+Netherlands,55003
+New Caledonia,6147
+New Zealand,23285
+Nicaragua,403597
+Niger,1859100
+Nigeria,6095752
+North Macedonia,1730
+Northern Mariana Islands,14995
+Norway,3804
+Oman,17078
+Pakistan,16584991
+Palau,4110
+Palestine,23281
+Panama,13093
+Papua New Guinea,278230
+Paraguay,377155
+Peru,673844
+Philippines,53685885
+Poland,30561
+Portugal,8994
+Puerto Rico,98129
+Romania,17251
+Russia,143204
+Russian Federation,5550
+Rwanda,112822
+R�union,14
+Samoa,14504
+Saudi Arabia,26194
+Senegal,340094
+Serbia,39476
+Seychelles,1127
+Sierra Leone,25800
+Sint Maarten (Dutch part),13000
+Slovakia,330
+Slovenia,336
+Solomon Islands,25739
+Somalia,3505675
+South Africa,146051
+South Sudan,1907872
+Spain,100841
+Sri Lanka,3348030
+St. Kitts and Nevis,33
+St. Lucia,1355
+St. Martin (French part),11000
+St. Vincent and the Grenadines,25990
+Sudan,1850830
+Suriname,12800
+Sweden,1273
+Switzerland,719
+Syria,151711
+S�o Tom� and Principe,500
+"Taiwan, China",200712
+Tajikistan,40962
+Tanzania,244790
+Thailand,3189837
+Timor-Leste,21228
+Togo,57170
+Tonga,17117
+Trinidad and Tobago,1170
+Tunisia,17720
+Turks and Caicos Islands,110
+Tuvalu,5800
+T�rkiye,400570
+Uganda,581937
+Ukraine,29770
+United Arab Emirates,1720
+United Kingdom,51969
+United States,10503312
+Uruguay,73727
+Uzbekistan,70000
+Vanuatu,174508
+Venezuela,221772
+Viet Nam,5093117
+Virgin Islands,2290
+Yemen,518585
+Zambia,102980
+Zimbabwe,134211
