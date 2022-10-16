@@ -1,204 +1,673 @@
-Country / Territory,Disaster Internal Displacements
-Abyei Area,40002
-Afghanistan,891820
-Albania,44563
-Algeria,73056
-American Samoa,4990
-Angola,493793
-Anguilla,500
-Antigua and Barbuda,1445
-Argentina,159466
-Australia,226236
-Austria,1580
-Azerbaijan,68730
-Bahamas,18430
-Bangladesh,15521019
-Barbados,570
-Belgium,16174
-Belize,10570
-Benin,538984
-Bermuda,50
-Bhutan,23716
-Bolivia,430139
-Bosnia and Herzegovina,92459
-Botswana,8700
-Brazil,2829973
-British Virgin Islands,6000
-Brunei Darussalam,145
-Bulgaria,5341
-Burkina Faso,254920
-Burundi,238821
-Cabo Verde,3740
-Cambodia,827237
-Cameroon,200299
-Canada,465379
-Cayman Islands,761
-Central African Republic,223140
-Chad,819491
-Chile,4126679
-China,92786839
-Colombia,3581051
-Comoros,42094
-Congo,172702
-Cook Islands,668
-Costa Rica,46586
-Croatia,60982
-Cuba,6796863
-Cyprus,107
-Czech Republic,28875
-C�te d'Ivoire,20342
-Dem. People's Rep. Korea,565700
-Dem. Rep. Congo,1910055
-Djibouti,19411
-Dominica,36170
-Dominican Republic,318550
-Ecuador,333935
-Egypt,30628
-El Salvador,119939
-Eritrea,100
-Eswatini,221
-Ethiopia,2803122
-Fiji,202916
-Finland,101
-France,69900
-French Guiana,140
-French Polynesia,4657
-Gabon,4170
-Gambia,62968
-Georgia,3403
-Germany,73699
-Ghana,277254
-Greece,103844
-Greenland,248
-Grenada,199
-Guam,2839
-Guatemala,737012
-Guinea,49379
-Guinea-Bissau,6860
-Guyana,583
-Haiti,2256871
-Honduras,1053742
-"Hong Kong, China",5680
-Hungary,1816
-Iceland,859
-India,53413910
-Indonesia,7553230
-Iran,984932
-Iraq,149760
-Ireland,1738
-Israel,91693
-Italy,142409
-Jamaica,7078
-Japan,4610134
-Jordan,2766
-Kazakhstan,79071
-Kenya,1418112
-Kiribati,2585
-Korea,50375
-Kosovo,1080
-Kyrgyzstan,15216
-Lao PDR,244788
-Latvia,24
-Lebanon,6556
-Lesotho,13130
-Liberia,32030
-Libya,8830
-Luxembourg,752
-"Macao, China",8560
-Madagascar,1050919
-Malawi,689044
-Malaysia,789437
-Maldives,390
-Mali,113090
-Marshall Islands,2000
-Martinique,2
-Mauritania,21170
-Mauritius,6534
-Mayotte,10450
-Mexico,2470346
-"Micronesia, Fed. Sts.",6800
-Moldova,200
-Mongolia,39263
-Montenegro,2608
-Morocco,22832
-Mozambique,1363169
-Myanmar,6003207
-Namibia,148376
-Nepal,3653258
-Netherlands,55003
-New Caledonia,6147
-New Zealand,23285
-Nicaragua,403597
-Niger,1859100
-Nigeria,6095752
-North Macedonia,1730
-Northern Mariana Islands,14995
-Norway,3804
-Oman,17078
-Pakistan,16584991
-Palau,4110
-Palestine,23281
-Panama,13093
-Papua New Guinea,278230
-Paraguay,377155
-Peru,673844
-Philippines,53685885
-Poland,30561
-Portugal,8994
-Puerto Rico,98129
-Romania,17251
-Russia,143204
-Russian Federation,5550
-Rwanda,112822
-R�union,14
-Samoa,14504
-Saudi Arabia,26194
-Senegal,340094
-Serbia,39476
-Seychelles,1127
-Sierra Leone,25800
-Sint Maarten (Dutch part),13000
-Slovakia,330
-Slovenia,336
-Solomon Islands,25739
-Somalia,3505675
-South Africa,146051
-South Sudan,1907872
-Spain,100841
-Sri Lanka,3348030
-St. Kitts and Nevis,33
-St. Lucia,1355
-St. Martin (French part),11000
-St. Vincent and the Grenadines,25990
-Sudan,1850830
-Suriname,12800
-Sweden,1273
-Switzerland,719
-Syria,151711
-S�o Tom� and Principe,500
-"Taiwan, China",200712
-Tajikistan,40962
-Tanzania,244790
-Thailand,3189837
-Timor-Leste,21228
-Togo,57170
-Tonga,17117
-Trinidad and Tobago,1170
-Tunisia,17720
-Turks and Caicos Islands,110
-Tuvalu,5800
-T�rkiye,400570
-Uganda,581937
-Ukraine,29770
-United Arab Emirates,1720
-United Kingdom,51969
-United States,10503312
-Uruguay,73727
-Uzbekistan,70000
-Vanuatu,174508
-Venezuela,221772
-Viet Nam,5093117
-Virgin Islands,2290
-Yemen,518585
-Zambia,102980
-Zimbabwe,134211
+Country,Hazard Type,Disaster Internal Displacements
+Abyei Area,Flood,40002
+Afghanistan,Drought,378220
+Afghanistan,Dry mass movement,595
+Afghanistan,Earthquake,78024
+Afghanistan,Extreme temperature,8228
+Afghanistan,Flood,403899
+Afghanistan,Storm,401
+Afghanistan,Wet Mass Movement,22453
+Albania,Earthquake,32900
+Albania,Flood,11080
+Albania,Wet Mass Movement,583
+Algeria,Earthquake,14000
+Algeria,Extreme temperature,1400
+Algeria,Flood,52576
+Algeria,Storm,49
+Algeria,Wildfire,5031
+American Samoa,Storm,4990
+Angola,Drought,7400
+Angola,Flood,471670
+Angola,Storm,14723
+Anguilla,Storm,500
+Antigua and Barbuda,Storm,1445
+Argentina,Earthquake,52
+Argentina,Flood,146207
+Argentina,Storm,9208
+Argentina,Volcanic eruption,600
+Argentina,Wet Mass Movement,2200
+Argentina,Wildfire,1199
+Australia,Earthquake,2
+Australia,Flood,68832
+Australia,Storm,61917
+Australia,Wet Mass Movement,83
+Australia,Wildfire,95402
+Austria,Extreme temperature,25
+Austria,Flood,1122
+Austria,Mass movement,210
+Austria,Wet Mass Movement,223
+Azerbaijan,Earthquake,36140
+Azerbaijan,Flood,32200
+Azerbaijan,Wet Mass Movement,390
+Bahamas,Storm,18200
+Bahamas,Wildfire,230
+Bangladesh,Dry mass movement,6000
+Bangladesh,Earthquake,100
+Bangladesh,Flood,5649525
+Bangladesh,Storm,9796307
+Bangladesh,Wet Mass Movement,69087
+Barbados,Storm,570
+Belgium,Flood,15764
+Belgium,Wet Mass Movement,10
+Belgium,Wildfire,400
+Belize,Flood,650
+Belize,Storm,9920
+Benin,Flood,533574
+Benin,Wildfire,5410
+Bermuda,Storm,50
+Bhutan,Earthquake,20000
+Bhutan,Flood,640
+Bhutan,Storm,2984
+Bhutan,Wet Mass Movement,36
+Bhutan,Wildfire,56
+Bolivia,Extreme temperature,2000
+Bolivia,Flood,420825
+Bolivia,Mass movement,3600
+Bolivia,Storm,190
+Bolivia,Wet Mass Movement,2411
+Bolivia,Wildfire,1113
+Bosnia and Herzegovina,Flood,92459
+Botswana,Flood,3670
+Botswana,Storm,5030
+Brazil,Drought,9843
+Brazil,Dry mass movement,35080
+Brazil,Earthquake,210
+Brazil,Extreme temperature,1400
+Brazil,Flood,2207920
+Brazil,Storm,524002
+Brazil,Wet Mass Movement,51352
+Brazil,Wildfire,166
+British Virgin Islands,Storm,6000
+Brunei Darussalam,Flood,145
+Bulgaria,Flood,5341
+Burkina Faso,Flood,254530
+Burkina Faso,Storm,390
+Burundi,Drought,7960
+Burundi,Dry mass movement,201
+Burundi,Flood,194086
+Burundi,Storm,31176
+Burundi,Wet Mass Movement,5088
+Burundi,Wildfire,310
+Cabo Verde,Earthquake,300
+Cabo Verde,Flood,750
+Cabo Verde,Storm,190
+Cabo Verde,Volcanic eruption,2500
+Cambodia,Dry mass movement,1582
+Cambodia,Flood,617390
+Cambodia,Storm,205652
+Cambodia,Wet Mass Movement,13
+Cambodia,Wildfire,2600
+Cameroon,Flood,199660
+Cameroon,Wet Mass Movement,639
+Canada,Dry mass movement,475
+Canada,Extreme temperature,6630
+Canada,Flood,197909
+Canada,Storm,4211
+Canada,Wet Mass Movement,129
+Canada,Wildfire,256025
+Cayman Islands,Storm,761
+Central African Republic,Flood,194022
+Central African Republic,Storm,26860
+Central African Republic,Wildfire,2258
+Chad,Flood,813211
+Chad,Storm,5900
+Chad,Wildfire,380
+Chile,Dry mass movement,523
+Chile,Earthquake,3994868
+Chile,Extreme temperature,2400
+Chile,Flood,44304
+Chile,Storm,400
+Chile,Volcanic eruption,24400
+Chile,Wet Mass Movement,30736
+Chile,Wildfire,29048
+China,Dry mass movement,3459
+China,Earthquake,18742540
+China,Extreme temperature,1009812
+China,Flood,43248293
+China,Mass movement,12
+China,Storm,29598215
+China,Wet Mass Movement,134508
+China,Wildfire,50000
+Colombia,Dry mass movement,27681
+Colombia,Earthquake,2688
+Colombia,Flood,3453506
+Colombia,Mass movement,1025
+Colombia,Storm,22493
+Colombia,Volcanic eruption,61800
+Colombia,Wet Mass Movement,11172
+Colombia,Wildfire,686
+Comoros,Earthquake,3000
+Comoros,Flood,20094
+Comoros,Storm,19000
+Congo,Flood,169700
+Congo,Wet Mass Movement,3002
+Cook Islands,Flood,12
+Cook Islands,Storm,656
+Costa Rica,Dry mass movement,209
+Costa Rica,Earthquake,2421
+Costa Rica,Flood,24608
+Costa Rica,Storm,18400
+Costa Rica,Volcanic eruption,24
+Costa Rica,Wet Mass Movement,352
+Costa Rica,Wildfire,572
+Croatia,Earthquake,41600
+Croatia,Flood,19036
+Croatia,Wet Mass Movement,23
+Croatia,Wildfire,323
+Cuba,Flood,22640
+Cuba,Storm,6774223
+Cyprus,Wildfire,107
+Czech Republic,Flood,26075
+Czech Republic,Storm,2800
+C�te d'Ivoire,Flood,10056
+C�te d'Ivoire,Storm,286
+C�te d'Ivoire,Wet Mass Movement,10000
+Dem. People's Rep. Korea,Flood,437000
+Dem. People's Rep. Korea,Storm,128700
+Dem. Rep. Congo,Earthquake,4602
+Dem. Rep. Congo,Flood,1190166
+Dem. Rep. Congo,Storm,95220
+Dem. Rep. Congo,Volcanic eruption,599000
+Dem. Rep. Congo,Wet Mass Movement,13820
+Dem. Rep. Congo,Wildfire,7247
+Djibouti,Flood,10011
+Djibouti,Storm,9400
+Dominica,Flood,6
+Dominica,Storm,36164
+Dominican Republic,Flood,99240
+Dominican Republic,Storm,219310
+Ecuador,Dry mass movement,841
+Ecuador,Earthquake,274618
+Ecuador,Flood,54933
+Ecuador,Storm,120
+Ecuador,Volcanic eruption,1350
+Ecuador,Wet Mass Movement,1169
+Ecuador,Wildfire,904
+Egypt,Dry mass movement,20000
+Egypt,Flood,10620
+Egypt,Wildfire,8
+El Salvador,Earthquake,2597
+El Salvador,Flood,65852
+El Salvador,Storm,47191
+El Salvador,Volcanic eruption,2300
+El Salvador,Wet Mass Movement,1999
+Eritrea,Flood,100
+Eswatini,Storm,221
+Ethiopia,Drought,706000
+Ethiopia,Flood,2072612
+Ethiopia,Storm,7680
+Ethiopia,Volcanic eruption,3900
+Ethiopia,Wet Mass Movement,1450
+Ethiopia,Wildfire,11480
+Fiji,Earthquake,30
+Fiji,Flood,38197
+Fiji,Storm,164552
+Fiji,Wet Mass Movement,137
+Finland,Flood,30
+Finland,Storm,20
+Finland,Wildfire,51
+France,Dry mass movement,604
+France,Earthquake,2017
+France,Flood,25613
+France,Storm,12059
+France,Wet Mass Movement,57
+France,Wildfire,29550
+French Guiana,Flood,140
+French Polynesia,Flood,1127
+French Polynesia,Storm,3530
+Gabon,Flood,3010
+Gabon,Storm,1160
+Gambia,Flood,49900
+Gambia,Storm,13068
+Georgia,Flood,2145
+Georgia,Storm,1234
+Georgia,Wet Mass Movement,24
+Germany,Flood,72359
+Germany,Storm,190
+Germany,Wildfire,1150
+Ghana,Flood,257174
+Ghana,Storm,20080
+Greece,Earthquake,17646
+Greece,Flood,5153
+Greece,Mass movement,16
+Greece,Storm,2072
+Greece,Wildfire,78957
+Greenland,Earthquake,78
+Greenland,Flood,170
+Grenada,Flood,27
+Grenada,Storm,172
+Guam,Storm,2839
+Guatemala,Dry mass movement,1085
+Guatemala,Earthquake,41506
+Guatemala,Extreme temperature,38584
+Guatemala,Flood,111885
+Guatemala,Storm,430720
+Guatemala,Volcanic eruption,50532
+Guatemala,Wet Mass Movement,62700
+Guinea,Dry mass movement,18
+Guinea,Flood,46033
+Guinea,Mass movement,270
+Guinea,Storm,2638
+Guinea,Wildfire,420
+Guinea-Bissau,Flood,2750
+Guinea-Bissau,Storm,4110
+Guyana,Flood,523
+Guyana,Storm,60
+Haiti,Earthquake,1728600
+Haiti,Flood,35263
+Haiti,Storm,493008
+Honduras,Dry mass movement,390
+Honduras,Earthquake,2460
+Honduras,Flood,106649
+Honduras,Storm,944071
+Honduras,Wildfire,172
+"Hong Kong, China",Flood,90
+"Hong Kong, China",Storm,5590
+Hungary,Extreme temperature,6
+Hungary,Flood,1604
+Hungary,Storm,206
+Iceland,Dry mass movement,67
+Iceland,Flood,50
+Iceland,Wet Mass Movement,742
+India,Drought,63000
+India,Earthquake,166010
+India,Flood,39529432
+India,Mass movement,286
+India,Storm,13647235
+India,Wet Mass Movement,7858
+India,Wildfire,89
+Indonesia,Dry mass movement,12964
+Indonesia,Earthquake,2223110
+Indonesia,Flood,4236989
+Indonesia,Storm,171352
+Indonesia,Volcanic eruption,867437
+Indonesia,Wet Mass Movement,38645
+Indonesia,Wildfire,2733
+Iran,Earthquake,372239
+Iran,Extreme temperature,13000
+Iran,Flood,562269
+Iran,Storm,37324
+Iran,Wet Mass Movement,100
+Iraq,Drought,22900
+Iraq,Earthquake,3900
+Iraq,Flood,120580
+Iraq,Storm,980
+Iraq,Wildfire,1400
+Ireland,Flood,138
+Ireland,Storm,1600
+Israel,Flood,193
+Israel,Wildfire,91500
+Italy,Dry mass movement,197
+Italy,Earthquake,118020
+Italy,Flood,16579
+Italy,Storm,3123
+Italy,Volcanic eruption,290
+Italy,Wet Mass Movement,366
+Italy,Wildfire,3834
+Jamaica,Flood,60
+Jamaica,Storm,7018
+Japan,Dry mass movement,80
+Japan,Earthquake,707266
+Japan,Extreme temperature,116
+Japan,Flood,503913
+Japan,Storm,2990671
+Japan,Volcanic eruption,368
+Japan,Wet Mass Movement,407677
+Japan,Wildfire,43
+Jordan,Flood,2606
+Jordan,Storm,160
+Kazakhstan,Extreme temperature,500
+Kazakhstan,Flood,78499
+Kazakhstan,Wildfire,72
+Kenya,Drought,2
+Kenya,Earthquake,62
+Kenya,Flood,1411950
+Kenya,Storm,4200
+Kenya,Wet Mass Movement,1118
+Kenya,Wildfire,780
+Kiribati,Flood,85
+Kiribati,Storm,2500
+Korea,Earthquake,1481
+Korea,Extreme temperature,6500
+Korea,Flood,20951
+Korea,Storm,10911
+Korea,Wet Mass Movement,2003
+Korea,Wildfire,8529
+Kosovo,Flood,1080
+Kyrgyzstan,Dry mass movement,39
+Kyrgyzstan,Earthquake,10000
+Kyrgyzstan,Flood,257
+Kyrgyzstan,Wet Mass Movement,4920
+Lao PDR,Earthquake,120
+Lao PDR,Flood,76044
+Lao PDR,Storm,168355
+Lao PDR,Wet Mass Movement,269
+Latvia,Wildfire,24
+Lebanon,Flood,1300
+Lebanon,Storm,5001
+Lebanon,Wildfire,255
+Lesotho,Flood,9800
+Lesotho,Storm,3330
+Liberia,Flood,30730
+Liberia,Storm,970
+Liberia,Wet Mass Movement,330
+Libya,Flood,8830
+Luxembourg,Flood,562
+Luxembourg,Storm,190
+"Macao, China",Storm,8560
+Madagascar,Drought,5890
+Madagascar,Dry mass movement,219
+Madagascar,Flood,57410
+Madagascar,Storm,986720
+Madagascar,Wet Mass Movement,130
+Madagascar,Wildfire,550
+Malawi,Dry mass movement,8
+Malawi,Earthquake,20600
+Malawi,Flood,527796
+Malawi,Storm,140640
+Malaysia,Dry mass movement,4068
+Malaysia,Flood,781321
+Malaysia,Mass movement,60
+Malaysia,Storm,3617
+Malaysia,Wet Mass Movement,371
+Maldives,Flood,314
+Maldives,Storm,76
+Mali,Flood,113090
+Marshall Islands,Flood,2000
+Martinique,Flood,2
+Mauritania,Flood,18270
+Mauritania,Storm,2900
+Mauritius,Flood,482
+Mauritius,Storm,5941
+Mauritius,Wet Mass Movement,62
+Mauritius,Wildfire,49
+Mayotte,Storm,10450
+Mexico,Dry mass movement,400
+Mexico,Earthquake,200582
+Mexico,Extreme temperature,310
+Mexico,Flood,1361504
+Mexico,Storm,899347
+Mexico,Volcanic eruption,470
+Mexico,Wet Mass Movement,920
+Mexico,Wildfire,6813
+"Micronesia, Fed. Sts.",Storm,6800
+Moldova,Flood,200
+Mongolia,Drought,520
+Mongolia,Extreme temperature,22220
+Mongolia,Flood,14013
+Mongolia,Severe winter condition,810
+Mongolia,Storm,1700
+Montenegro,Earthquake,6
+Montenegro,Flood,2600
+Montenegro,Wildfire,2
+Morocco,Earthquake,580
+Morocco,Flood,22252
+Mozambique,Earthquake,460
+Mozambique,Flood,553779
+Mozambique,Storm,805490
+Mozambique,Wet Mass Movement,440
+Mozambique,Wildfire,3000
+Myanmar,Earthquake,29200
+Myanmar,Flood,3361659
+Myanmar,Storm,2600218
+Myanmar,Wet Mass Movement,12084
+Myanmar,Wildfire,46
+Namibia,Flood,148346
+Namibia,Storm,30
+Nepal,Dry mass movement,75
+Nepal,Earthquake,2669000
+Nepal,Flood,909961
+Nepal,Storm,23557
+Nepal,Wet Mass Movement,49389
+Nepal,Wildfire,1276
+Netherlands,Flood,51000
+Netherlands,Wildfire,4003
+New Caledonia,Flood,3
+New Caledonia,Storm,6096
+New Caledonia,Wildfire,48
+New Zealand,Earthquake,4050
+New Zealand,Flood,14348
+New Zealand,Storm,1438
+New Zealand,Volcanic eruption,3
+New Zealand,Wet Mass Movement,11
+New Zealand,Wildfire,3435
+Nicaragua,Earthquake,3500
+Nicaragua,Flood,138606
+Nicaragua,Storm,261424
+Nicaragua,Volcanic eruption,48
+Nicaragua,Wildfire,19
+Niger,Flood,1859100
+Nigeria,Flood,6075972
+Nigeria,Storm,19780
+North Macedonia,Flood,1650
+North Macedonia,Wildfire,80
+Northern Mariana Islands,Storm,14995
+Norway,Dry mass movement,47
+Norway,Flood,240
+Norway,Storm,400
+Norway,Wet Mass Movement,1603
+Norway,Wildfire,1514
+Oman,Flood,898
+Oman,Storm,16180
+Pakistan,Drought,270
+Pakistan,Earthquake,1093373
+Pakistan,Extreme temperature,16136
+Pakistan,Flood,15397572
+Pakistan,Mass movement,1262
+Pakistan,Storm,61928
+Pakistan,Wet Mass Movement,14450
+Palau,Storm,4110
+Palestine,Extreme temperature,10000
+Palestine,Flood,3130
+Palestine,Storm,10040
+Palestine,Wildfire,111
+Panama,Earthquake,210
+Panama,Flood,6701
+Panama,Storm,6077
+Panama,Wet Mass Movement,105
+Papua New Guinea,Earthquake,59200
+Papua New Guinea,Flood,161316
+Papua New Guinea,Storm,8320
+Papua New Guinea,Volcanic eruption,27860
+Papua New Guinea,Wet Mass Movement,21534
+Paraguay,Flood,368315
+Paraguay,Storm,8520
+Paraguay,Wildfire,320
+Peru,Dry mass movement,227
+Peru,Earthquake,33363
+Peru,Extreme temperature,5524
+Peru,Flood,608635
+Peru,Storm,14777
+Peru,Volcanic eruption,1620
+Peru,Wet Mass Movement,7115
+Peru,Wildfire,2583
+Philippines,Drought,5400
+Philippines,Dry mass movement,2606
+Philippines,Earthquake,1055731
+Philippines,Extreme temperature,316
+Philippines,Flood,7321095
+Philippines,Storm,44547979
+Philippines,Volcanic eruption,721770
+Philippines,Wet Mass Movement,30894
+Philippines,Wildfire,94
+Poland,Flood,30418
+Poland,Storm,143
+Portugal,Flood,95
+Portugal,Storm,712
+Portugal,Wet Mass Movement,20
+Portugal,Wildfire,8167
+Puerto Rico,Earthquake,11180
+Puerto Rico,Storm,86949
+Romania,Dry mass movement,16
+Romania,Flood,17230
+Romania,Storm,5
+Russia,Flood,118102
+Russia,Storm,1400
+Russia,Wildfire,23702
+Russian Federation,Flood,4770
+Russian Federation,Wildfire,780
+Rwanda,Dry mass movement,9700
+Rwanda,Earthquake,13000
+Rwanda,Flood,24707
+Rwanda,Storm,58824
+Rwanda,Wet Mass Movement,6591
+R�union,Flood,14
+Samoa,Earthquake,5300
+Samoa,Flood,139
+Samoa,Storm,9065
+Saudi Arabia,Flood,26188
+Saudi Arabia,Wildfire,6
+Senegal,Drought,2
+Senegal,Flood,328300
+Senegal,Storm,11162
+Senegal,Wet Mass Movement,630
+Serbia,Earthquake,1500
+Serbia,Extreme temperature,20
+Serbia,Flood,37954
+Serbia,Wildfire,2
+Seychelles,Flood,7
+Seychelles,Storm,1120
+Sierra Leone,Flood,5300
+Sierra Leone,Storm,6200
+Sierra Leone,Wet Mass Movement,12000
+Sierra Leone,Wildfire,2300
+Sint Maarten (Dutch part),Storm,13000
+Slovakia,Flood,330
+Slovenia,Storm,300
+Slovenia,Wet Mass Movement,36
+Solomon Islands,Earthquake,7705
+Solomon Islands,Flood,10593
+Solomon Islands,Storm,7437
+Solomon Islands,Wet Mass Movement,4
+Somalia,Drought,1381000
+Somalia,Flood,2028505
+Somalia,Storm,91560
+Somalia,Wildfire,4610
+South Africa,Flood,114009
+South Africa,Storm,17666
+South Africa,Wildfire,14376
+South Sudan,Drought,5000
+South Sudan,Flood,1893502
+South Sudan,Storm,8200
+South Sudan,Wildfire,1170
+Spain,Earthquake,15000
+Spain,Flood,19482
+Spain,Storm,816
+Spain,Volcanic eruption,7000
+Spain,Wildfire,58543
+Sri Lanka,Dry mass movement,1022
+Sri Lanka,Flood,2645191
+Sri Lanka,Storm,679336
+Sri Lanka,Wet Mass Movement,22252
+Sri Lanka,Wildfire,229
+St. Kitts and Nevis,Storm,33
+St. Lucia,Storm,1355
+St. Martin (French part),Storm,11000
+St. Vincent and the Grenadines,Flood,50
+St. Vincent and the Grenadines,Storm,2940
+St. Vincent and the Grenadines,Volcanic eruption,23000
+Sudan,Flood,1850830
+Suriname,Flood,12800
+Sweden,Flood,101
+Sweden,Wildfire,1172
+Switzerland,Flood,422
+Switzerland,Storm,13
+Switzerland,Wet Mass Movement,284
+Syria,Flood,114811
+Syria,Storm,11900
+Syria,Wildfire,25000
+S�o Tom� and Principe,Flood,500
+"Taiwan, China",Earthquake,1585
+"Taiwan, China",Flood,12300
+"Taiwan, China",Storm,183327
+"Taiwan, China",Wet Mass Movement,3500
+Tajikistan,Earthquake,9680
+Tajikistan,Flood,22682
+Tajikistan,Mass movement,7200
+Tajikistan,Wet Mass Movement,1400
+Tanzania,Earthquake,10019
+Tanzania,Flood,194800
+Tanzania,Storm,39971
+Thailand,Extreme temperature,290
+Thailand,Flood,3020929
+Thailand,Storm,168126
+Thailand,Wet Mass Movement,309
+Thailand,Wildfire,183
+Timor-Leste,Earthquake,11
+Timor-Leste,Flood,2411
+Timor-Leste,Mass movement,67
+Timor-Leste,Storm,16868
+Timor-Leste,Wet Mass Movement,30
+Timor-Leste,Wildfire,1841
+Togo,Flood,57170
+Tonga,Flood,17
+Tonga,Storm,17100
+Trinidad and Tobago,Dry mass movement,20
+Trinidad and Tobago,Flood,1080
+Trinidad and Tobago,Storm,24
+Trinidad and Tobago,Volcanic eruption,40
+Trinidad and Tobago,Wet Mass Movement,6
+Tunisia,Earthquake,6
+Tunisia,Flood,15508
+Tunisia,Storm,16
+Tunisia,Wildfire,2190
+Turks and Caicos Islands,Storm,110
+Tuvalu,Storm,5800
+T�rkiye,Earthquake,291642
+T�rkiye,Flood,25856
+T�rkiye,Storm,14
+T�rkiye,Wet Mass Movement,1308
+T�rkiye,Wildfire,81750
+Uganda,Earthquake,1100
+Uganda,Flood,557203
+Uganda,Storm,13963
+Uganda,Wet Mass Movement,9601
+Uganda,Wildfire,70
+Ukraine,Flood,28540
+Ukraine,Wildfire,1230
+United Arab Emirates,Earthquake,40
+United Arab Emirates,Flood,1560
+United Arab Emirates,Storm,120
+United Kingdom,Dry mass movement,48
+United Kingdom,Flood,34063
+United Kingdom,Storm,17325
+United Kingdom,Wet Mass Movement,153
+United Kingdom,Wildfire,380
+United States,Dry mass movement,166
+United States,Earthquake,687
+United States,Extreme temperature,19585
+United States,Flood,535281
+United States,Storm,7076595
+United States,Volcanic eruption,2800
+United States,Wet Mass Movement,2245
+United States,Wildfire,2865953
+Uruguay,Flood,71720
+Uruguay,Storm,1105
+Uruguay,Wildfire,902
+Uzbekistan,Flood,70000
+Vanuatu,Earthquake,11
+Vanuatu,Flood,200
+Vanuatu,Storm,150740
+Vanuatu,Volcanic eruption,22918
+Vanuatu,Wet Mass Movement,639
+Venezuela,Flood,221772
+Viet Nam,Dry mass movement,19
+Viet Nam,Earthquake,68
+Viet Nam,Flood,579695
+Viet Nam,Storm,4509532
+Viet Nam,Wet Mass Movement,3083
+Viet Nam,Wildfire,720
+Virgin Islands,Storm,2290
+Yemen,Drought,30
+Yemen,Earthquake,150
+Yemen,Flood,417223
+Yemen,Storm,101102
+Yemen,Wet Mass Movement,80
+Zambia,Earthquake,54
+Zambia,Flood,102308
+Zambia,Storm,468
+Zambia,Wet Mass Movement,150
+Zimbabwe,Flood,73383
+Zimbabwe,Storm,60800
+Zimbabwe,Wet Mass Movement,12
+Zimbabwe,Wildfire,16
