@@ -6,6 +6,8 @@
   <script src="https://cdn.jsdelivr.net/npm/vega@5.20.2"></script>
   <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.0"></script>
   <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.17.0"></script>
+
+  <link rel="stylesheet" href="style.css">
   
 
 <style>
@@ -24,7 +26,7 @@ header {
 
 section:before {
   float: left;
-  padding: 20px;
+  padding: 50px;
   width: 20%;
   background-color: #ffffff;
 }
@@ -38,7 +40,7 @@ article {
 
 
 section:after {
-  float: right;
+  float: left;
   padding: 20px;
   width: 40%;
   background-color: #ffffff;
@@ -80,60 +82,56 @@ footer {
 </header>
 
 
+<div id = "tsunami_map"></div> 
+<div id = "earthquake_map"></div>
+
+
+<article>
+  <h1>Earthquakes and Tsunamis</h1>
+
+  <p>An earthquake is the shaking of the surface of the Earth resulting from 
+    a sudden release of energy in the Earth's lithosphere that creates seismic 
+    waves. The 1960 Chilean earthquake is the largest earthquake that has been
+    measured on a seismograph, reaching 9.5 magnitude on 22 May 1960,
+    but the 2004 Indian Ocean earthquake is the deadliest earthquake in history.</p>
+  <p>
+    Earthquakes, volcanic eruptions and other disturbances above or below water all have 
+    the potential to generate a tsunami. While Japan may have the longest recorded history of tsunamis, 
+    the sheer destruction caused by the 2004 Indian Ocean earthquake and tsunami event mark it as the most
+    devastating of its kind in modern times, killing around 230,000 people. The Sumatran region is 
+    also accustomed to tsunamis, with earthquakes of varying magnitudes regularly 
+    occurring off the coast of the island.
+  </p>
+</article>  
+
+
+
+
+
+
 <section>
-
-  <before>
-    <p style="margin-top: 40px; width: 300px; border: 1px solid rgb(255, 255, 255);">
-      <div id = "tsunami_map">
-        <!-- CSS file -->
-        <link rel="stylesheet" type="text/css" href="css/styles.css" media="all"></p>
-    
-    
-    </div> 
-    <div id = "earthquake_map"></div>
-  </before>
-
   <article>
-    <h1>Earthquakes and Tsunamis</h1>
-
-    <p>An earthquake is the shaking of the surface of the Earth resulting from 
-      a sudden release of energy in the Earth's lithosphere that creates seismic 
-      waves. The 1960 Chilean earthquake is the largest earthquake that has been
-      measured on a seismograph, reaching 9.5 magnitude on 22 May 1960,
-      but the 2004 Indian Ocean earthquake is the deadliest earthquake in history.</p>
-    <p>
-      Earthquakes, volcanic eruptions and other disturbances above or below water all have 
-      the potential to generate a tsunami. While Japan may have the longest recorded history of tsunamis, 
-      the sheer destruction caused by the 2004 Indian Ocean earthquake and tsunami event mark it as the most
-      devastating of its kind in modern times, killing around 230,000 people. The Sumatran region is 
-      also accustomed to tsunamis, with earthquakes of varying magnitudes regularly 
-      occurring off the coast of the island.
+    <p style="margin-top: 1px; width: 50px; border: 1px solid rgb(255, 255, 255);">
+      <div id = "radial_plot_displacement"></div>
     </p>
-  </article>  
+  </article>
 
 </section>
 
-
-
 <section>
   <after>
-    <p style="margin-top: 60px; width: 300px; border: 1px solid rgb(255, 255, 255);">
+    <p style="margin-top: 100px; width: 400px; border: 1px solid rgb(255, 255, 255);">
       <div id = "bubble_plot_death"></div>
     </p>
   </after>
   
-  <content>
-    <h1>Earthquakes and Tsunamis</h1>
-    <p>An earthquake is the shaking of the surface of the Earth resulting from 
-      a sudden release of energy in the Earth's lithosphere that creates seismic 
-      waves. The 1960 Chilean earthquake is the largest earthquake that has been
-      measured on a seismograph, reaching 9.5 magnitude on 22 May 1960,
-      but the 2004 Indian Ocean earthquake is the deadliest earthquake in history.</p> 
-  </content>     
 </section>
+    
 
  
 </style>  
+
+
 
 <script type = 'text/javascript'>
 
@@ -145,6 +143,9 @@ footer {
 
   var spec3 = "js/bubble_plot_death.vg.json";
   vegaEmbed('#bubble_plot_death', spec3).then(function(result) {}).catch(console.error);
+
+  var spec4 = "js/radial_plot_displacement.vg.json";
+  vegaEmbed('#radial_plot_displacement', spec4).then(function(result) {}).catch(console.error);
 
 </script>
 

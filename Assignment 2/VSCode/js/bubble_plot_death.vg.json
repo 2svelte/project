@@ -27,7 +27,7 @@
       "scale": {"rangeMax": 5000}
     },
     "color": {"field": "Disaster", "type": "nominal", "legend": null},
-    "tooltip": [ {"field": "Deaths"}]
+    "tooltip": [ {"field": "Country"}, {"field": "Deaths"}]
   }
   
 }
