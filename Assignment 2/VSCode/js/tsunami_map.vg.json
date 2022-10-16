@@ -1,8 +1,8 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "width": 260,
-  "height": 260,
-  "title": "All Tsunamis (1900 - 2022)",
+  "width": 300,
+  "height": 300,
+  "title": "All Tsunamis (1900-2022)",
   "projection": {
     "type": "orthographic",
     "rotate": {"expr": "[rotate0, rotate1, 0]"}
