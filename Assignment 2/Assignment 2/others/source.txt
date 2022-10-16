@@ -1,0 +1,8 @@
+sources:
+
+https://www.kaggle.com/datasets/brsdincer/all-natural-disasters-19002021-eosdis
+https://www.kaggle.com/datasets/thedevastator/how-natural-disasters-impact-regions-labor-market
+Internal Displacement Monitoring Centre (via World Bank)
+
+https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php
+https://www.kaggle.com/datasets/andrewmvd/tsunami-dataset

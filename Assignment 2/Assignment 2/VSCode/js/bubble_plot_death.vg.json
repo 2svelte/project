@@ -1,0 +1,34 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {
+    "url": "https://raw.githubusercontent.com/gaikouteki/project/main/Assignment%202/datasets/cleaned/natural_disasters_death(cleaned).csv"
+  },
+  "title": "Total Deaths by Natural Disasters",
+  "width": 400,
+  "height": 300,
+  "mark": {
+    "type": "circle",
+    "opacity": 0.8,
+    "stroke": "black",
+    "strokeWidth": 1
+  },
+  "encoding": {
+    "x": {
+      "field": "Year",
+      "type": "temporal",
+      "axis": {"grid": true}
+    },
+    "y": {"field": "Disaster", "type": "nominal", "axis": {"title": ""}},
+    "size": {
+      "field": "Deaths",
+      "type": "quantitative",
+      "title": "Annual Global Deaths",
+      "legend": {"clipHeight": 30},
+      "scale": {"rangeMax": 5000}
+    },
+    "color": {"field": "Disaster", "type": "nominal", "legend": null},
+    "tooltip": [{"field": "Deaths"}]
+  }
+}
+
+  
