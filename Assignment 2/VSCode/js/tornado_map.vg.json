@@ -39,11 +39,18 @@
             "type": "quantitative"
           },
           "size": {
-            "value": 5
+            "value": 10
           },
           "color": {
             "value": "gray"
-          }
+          },
+          "tooltip": [
+            {"field": "state_name", "type": "nominal", "title": "State"},
+            {"field": "Year", "type": "temporal", "title": "Year"},
+            {"field": "magnitude", "type": "quantitative", "title": "Category"},
+            {"field": "fatality_count", "type": "quantitative", "title": "Fatality Count"}
+          ]
+        
         }
       },
       {
@@ -89,7 +96,19 @@
           },
           "order": {
             "field": "order"
-          }
+          },
+          "color": {
+            "value": "red"
+          },
+          "size": {
+            "value": 3
+          },
+          "tooltip": [
+            {"field": "state_name", "type": "nominal", "title": "State"},
+            {"field": "Year", "type": "temporal", "title": "Year"},
+            {"field": "magnitude", "type": "quantitative", "title": "Category"},
+            {"field": "fatality_count", "type": "quantitative", "title": "Fatality Count"}
+          ]
         }
       }
     ]
