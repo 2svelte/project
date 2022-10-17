@@ -9,7 +9,7 @@
           "url": "https://raw.githubusercontent.com/vega/vega/main/docs/data/us-10m.json",
           "format": {
             "type": "topojson",
-            "feature": "states"
+            "feature": "counties"
           }
         },
         "projection": {
@@ -17,7 +17,7 @@
         },
         "mark": {
           "type": "geoshape",
-          "fill": "#eee",
+          "fill": "#efe6e6",
           "stroke": "white"
         }
       },
@@ -56,7 +56,12 @@
       {
         "data": {
           "values": [
-            {"tornado": "1607"}
+            {"tornado": "1607"},
+            {"tornado": "556"},
+            {"tornado": "550"},
+            {"tornado": "1795"},
+            {"tornado": "2313"}
+
           ]
         },
         "transform": [
@@ -99,7 +104,7 @@
             "value": "red"
           },
           "size": {
-            "value": 30
+            "value": 100
           },
           "tooltip": [
             {"field": "state_name", "type": "nominal", "title": "State"},
