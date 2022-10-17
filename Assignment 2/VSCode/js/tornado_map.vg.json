@@ -46,7 +46,7 @@
           },
           "tooltip": [
             {"field": "state_name", "type": "nominal", "title": "State"},
-            {"field": "Year", "type": "temporal", "title": "Year"},
+            {"field": "Date", "type": "temporal", "title": "Date"},
             {"field": "magnitude", "type": "quantitative", "title": "Category"},
             {"field": "fatality_count", "type": "quantitative", "title": "Fatality Count"}
           ]
@@ -56,14 +56,7 @@
       {
         "data": {
           "values": [
-            {"tornado": "1", "order": 1},
-            {"tornado": "2", "order": 2},
-            {"tornado": "3", "order": 3},
-            {"tornado": "4", "order": 4},
-            {"tornado": "5", "order": 5},
-            {"tornado": "6", "order": 6},
-            {"tornado": "7", "order": 7},
-            {"tornado": "8", "order": 8}
+            {"tornado": "1607"}
           ]
         },
         "transform": [
@@ -75,8 +68,13 @@
               },
               "key": "ID",
               "fields": [
+                "state_name",
+                "Date",
                 "start_lon",
-                "start_lat"
+                "start_lat",
+                "magnitude",
+                "fatality_count"
+
               ]
             }
           }
@@ -84,7 +82,7 @@
         "projection": {
           "type": "albersUsa"
         },
-        "mark": "line",
+        "mark": "square",
         "encoding": {
           "longitude": {
             "field": "start_lon",
@@ -101,11 +99,11 @@
             "value": "red"
           },
           "size": {
-            "value": 3
+            "value": 30
           },
           "tooltip": [
             {"field": "state_name", "type": "nominal", "title": "State"},
-            {"field": "Year", "type": "temporal", "title": "Year"},
+            {"field": "Date", "type": "temporal", "title": "Year"},
             {"field": "magnitude", "type": "quantitative", "title": "Category"},
             {"field": "fatality_count", "type": "quantitative", "title": "Fatality Count"}
           ]
