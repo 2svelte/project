@@ -1,7 +1,7 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "title": "Cost of Natural Disasters in USD",
-    "width": 400,
+    "title": "Cost of Natural Disasters in USA (2019-2021)",
+    "width": 350,
     "height": {"step": 30},
     "background": "white",
     "config": {
@@ -50,7 +50,7 @@
             "Tornado",
             "Storm"
             ],
-      "name": "Disaster Selection: "
+      "name": "Disaster Selection: " 
         }
       }
     ],

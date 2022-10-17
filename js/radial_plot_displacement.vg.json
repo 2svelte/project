@@ -1,6 +1,6 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "title": "Internal Displacements of Residents Caused by Natural Disasters",
+    "title": "Displacements of Residents Due To Natural Disasters (2010-2021)",
     "width": 400,
     "height":400,
     "data": {"url": "https://raw.githubusercontent.com/gaikouteki/project/main/datasets/cleaned/internal_displacement(cleaned).csv"},
