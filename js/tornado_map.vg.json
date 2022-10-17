@@ -23,7 +23,7 @@
       },
       {
         "data": {
-          "url": "https://raw.githubusercontent.com/gaikouteki/project/main/Assignment%202/datasets/cleaned/tornado_path(cleaned).csv"
+          "url": "https://raw.githubusercontent.com/gaikouteki/project/main/datasets/cleaned/tornado_path(cleaned).csv"
         },
         "projection": {
           "type": "albersUsa"
@@ -69,7 +69,7 @@
             "lookup": "tornado",
             "from": {
               "data": {
-                "url": "https://raw.githubusercontent.com/gaikouteki/project/main/Assignment%202/datasets/cleaned/tornado_path(cleaned).csv"
+                "url": "https://raw.githubusercontent.com/gaikouteki/project/main/datasets/cleaned/tornado_path(cleaned).csv"
               },
               "key": "ID",
               "fields": [

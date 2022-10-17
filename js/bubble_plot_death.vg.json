@@ -1,7 +1,7 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "data": {
-    "url": "https://raw.githubusercontent.com/gaikouteki/project/main/Assignment%202/datasets/cleaned/natural_disasters_death(cleaned).csv"
+    "url": "https://raw.githubusercontent.com/gaikouteki/project/main/datasets/cleaned/natural_disasters_death(cleaned).csv"
   },
   "title": "Total Deaths by Natural Disasters",
   "width": 900,
