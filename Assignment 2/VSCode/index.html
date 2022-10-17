@@ -17,7 +17,7 @@
   
   /* Style the header */
   header {
-    background-color: #666;
+    background-color: rgb(29, 30, 68);
     padding: 1px;
     text-align: center;
     font-size: 20px;
@@ -30,15 +30,7 @@
     padding: 20px;
     width: 40%;
     background-color: #ffffff;
-  }
-  
-  
-  section:content{
-    float: left;
-    padding: 2px;
-    width: 30%;
-    background-color: #ffffff;
-  
+    margin-top: 10px;
   }
   
   
@@ -67,7 +59,7 @@
   #radial_plot_displacement {
     font-family: "Courier New", Courier, monospace;
     font-size: 20px;
-    margin-top: 100px;
+    margin-top: 90px;
     float: right;
   }
   
@@ -75,7 +67,7 @@
   #bubble_plot_death {
     font-family: "Courier New", Courier, monospace;
     font-size: 20px;
-    margin-top: 100px;
+    margin-top: 50px;
     float: left;
   }
 
@@ -83,9 +75,20 @@
   #tornado_map {
     font-family: "Courier New", Courier, monospace;
     font-size: 20px;
-    margin-top: 100px;
-    float: right;
+    margin-top: 50px;
+    float: center;
   }
+
+
+  #barchart_cost {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 20px;
+    margin-top: 80px;
+    float: center;
+  }
+
+
+
 
 
 </style>
@@ -119,11 +122,20 @@
     </p>
   </article>  
 
+  <div id = "barchart_cost"></div>
 
   <div id = "radial_plot_displacement"></div>
-  <div id = "bubble_plot_death"></div>
-  <div id = "tornado_map"></div>
+  <article>
+    Internally displaced people are people who have been forced to leave their original countries
+    in order to flee a damaging event such as natural disasters or conflicts.
+  </article>
 
+
+
+
+  <div id = "bubble_plot_death"></div>
+ 
+  <div id = "tornado_map"></div>
 
 
 <script type = 'text/javascript'>
@@ -142,6 +154,9 @@
 
   var spec5 = "js/tornado_map.vg.json";
   vegaEmbed('#tornado_map', spec5).then(function(result) {}).catch(console.error);
+
+  var spec6 = "js/barchart_cost.vg.json";
+  vegaEmbed('#barchart_cost', spec6).then(function(result) {}).catch(console.error);
 
 </script>
 
