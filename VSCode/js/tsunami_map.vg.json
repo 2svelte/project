@@ -1,0 +1,84 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 300,
+  "height": 300,
+  "title": "All Tsunamis (1900-2022)",
+  "projection": {
+    "type": "orthographic",
+    "rotate": {"expr": "[rotate0, rotate1, 0]"}
+  },
+  "params": [
+    {
+      "name": "rotate0",
+      "value": 0,
+      "bind": {"input": "range", "min": -90, "max": 90, "step": 1}
+    },
+    {
+      "name": "rotate1",
+      "value": 0,
+      "bind": {"input": "range", "min": -90, "max": 90, "step": 1}
+    },
+    {
+      "name": "LabelSize",
+      "value": 6,
+      "bind": {"input": "range", "min": 0, "max": 12, "step": 0.1}
+    }
+  ],
+  "layer": [
+    {
+      "data": {"sphere": true},
+      "mark": {"type": "geoshape", "fill": "aliceblue"}
+    },
+    {
+      "data": { 
+        "name": "world",
+        "url": "https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json",
+        "format": {"type": "topojson", "feature": "countries"}
+      },
+      "mark": {"type": "geoshape", "fill": "mintcream", "stroke": "black"}
+    },
+    {
+      
+      "data": {  
+        "name": "tsunami",
+        "url": "https://raw.githubusercontent.com/gaikouteki/project/main/Assignment%202/VSCode/js/tsunami_dataset_cleaned.geojson",
+        "format": {"type": "json", "property": "features"}
+
+      },
+   
+    
+      "transform": [
+        {"calculate": "datum.geometry.coordinates[0]", "as": "longitude"},
+        {"calculate": "datum.geometry.coordinates[1]", "as": "latitude"},
+        {
+          "filter": "(rotate0 * -1) - 90 < datum.longitude && datum.longitude < (rotate0* -1) + 90 && (rotate1 * -1) - 90 < datum.latitude && datum.latitude < (rotate1 * -1) + 90"
+        },
+        {"calculate": "datum.properties.EQ_MAGNITUDE", "as": "magnitude"},
+        {"calculate": "datum.properties.LOCATION_NAME", "as": "location"}
+      ],
+
+      "mark": {"type": "circle", "color": "blue", "opacity": 0.25},
+      "encoding": {
+        "longitude": {"field": "longitude", "type": "quantitative"},
+        "latitude": {"field": "latitude", "type": "quantitative"},
+        "size": {
+          "legend": null,
+          "field": "magnitude",
+          "type": "quantitative",
+          "scale": {
+            "type": "sqrt",
+            "domain": [0, 100],
+            "range": [0, {"expr": "pow(LabelSize, 3)"}]
+          }
+        },
+        "tooltip": [{"field": "location"}, {"field": "magnitude"}]
+    
+  
+      }
+
+      
+      
+    }
+
+  ]
+}
