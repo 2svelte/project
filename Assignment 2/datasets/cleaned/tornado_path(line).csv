@@ -1,0 +1,2 @@
+ID,Year,Date,state_name,magnitude,fatality_count,property_loss,yearly_tornado_count,start_lon,start_lat,end_long,end_lat,length,width,tornado_path_geom
+1607,2011,2011-05-22,Missouri,5,158,2800.1,296616,-94.5932,37.0524,-94.2213,36.9838,21.62,4800,"LINESTRING(-94.5932 37.0524, -94.40725 37.0181, -94.2213 36.9838)"
