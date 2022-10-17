@@ -1,0 +1,118 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": "Top 5 Deadliest Tornadoes from 2010 Onwards",
+    "width": 1000,
+    "height": 600,
+    "layer": [
+      {
+        "data": {
+          "url": "https://raw.githubusercontent.com/vega/vega/main/docs/data/us-10m.json",
+          "format": {
+            "type": "topojson",
+            "feature": "counties"
+          }
+        },
+        "projection": {
+          "type": "albersUsa"
+        },
+        "mark": {
+          "type": "geoshape",
+          "fill": "#d4dafa",
+          "stroke": "white"
+        }
+      },
+      {
+        "data": {
+          "url": "https://raw.githubusercontent.com/gaikouteki/project/main/Assignment%202/datasets/cleaned/tornado_path(cleaned).csv"
+        },
+        "projection": {
+          "type": "albersUsa"
+        },
+        "mark": "circle",
+        "encoding": {
+          "longitude": {
+            "field": "start_lon",
+            "type": "quantitative"
+          },
+          "latitude": {
+            "field": "start_lat",
+            "type": "quantitative"
+          },
+          "size": {
+            "value": 10
+          },
+          "color": {
+            "value": "gray"
+          },
+          "tooltip": [
+            {"field": "state_name", "type": "nominal", "title": "State"},
+            {"field": "Date", "type": "temporal", "title": "Date"},
+            {"field": "magnitude", "type": "quantitative", "title": "Category"},
+            {"field": "fatality_count", "type": "quantitative", "title": "Fatality Count"}
+          ]
+        
+        }
+      },
+      {
+        "data": {
+          "values": [
+            {"tornado": "1607"},
+            {"tornado": "556"},
+            {"tornado": "550"},
+            {"tornado": "1795"},
+            {"tornado": "2313"}
+
+          ]
+        },
+        "transform": [
+          {
+            "lookup": "tornado",
+            "from": {
+              "data": {
+                "url": "https://raw.githubusercontent.com/gaikouteki/project/main/Assignment%202/datasets/cleaned/tornado_path(cleaned).csv"
+              },
+              "key": "ID",
+              "fields": [
+                "state_name",
+                "Date",
+                "start_lon",
+                "start_lat",
+                "magnitude",
+                "fatality_count"
+
+              ]
+            }
+          }
+        ],
+        "projection": {
+          "type": "albersUsa"
+        },
+        "mark": "square",
+        "encoding": {
+          "longitude": {
+            "field": "start_lon",
+            "type": "quantitative"
+          },
+          "latitude": {
+            "field": "start_lat",
+            "type": "quantitative"
+          },
+          "order": {
+            "field": "order"
+          },
+          "color": {
+            "value": "red"
+          },
+          "size": {
+            "value": 100
+          },
+          "tooltip": [
+            {"field": "state_name", "type": "nominal", "title": "State"},
+            {"field": "Date", "type": "temporal", "title": "Year"},
+            {"field": "magnitude", "type": "quantitative", "title": "Category"},
+            {"field": "fatality_count", "type": "quantitative", "title": "Fatality Count"}
+          ]
+        }
+      }
+    ]
+}
