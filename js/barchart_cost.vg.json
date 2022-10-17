@@ -1,0 +1,88 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": "Cost of Natural Disasters in USD",
+    "width": 400,
+    "height": {"step": 30},
+    "background": "white",
+    "config": {
+      "axis": {
+        "labelFont": "Courier New",
+        "titleFont": "Courier New",
+        "titleFontSize": 15,
+        "labelFontSize": 11
+      },
+      "legend": {
+        "labelFont": "Courier New",
+        "titleFont": "Courier New",
+        "titleFontSize": 15,
+        "labelFontSize": 11
+      },
+      "title": {"font": "Courier New", "subtitleFont": "Courier New", "fontSize": 20}
+    },
+    "data": {
+      "url": "https://raw.githubusercontent.com/gaikouteki/project/main/Assignment%202/datasets/cleaned/disaster_cost(cleaned).csv"
+    },
+    "transform": [
+        {"filter": "datum.Disaster != ''"},
+        {
+            "filter": "Disaster_selection == null  || datum.Disaster == Disaster_selection"
+        }
+
+        
+    ],
+ 
+    "params": [
+        {
+        "name": "Disaster_selection",
+        "bind": {
+        "input": "select",
+        "options": [
+            null,
+            "Hurricane",
+            "Flood",
+            "Tornado",
+            "Storm"
+            ],
+        "labels":[
+            "Show All",
+            "Hurricane",
+            "Flood",
+            "Tornado",
+            "Storm"
+            ],
+      "name": "Disaster Selection: "
+        }
+      }
+    ],
+    "layer": [
+      {
+        "mark": "bar",
+        "encoding": {
+          "x": {
+            "field": "CPI-Adjusted Estimated Cost (In Billions)",
+            "type": "quantitative"
+        
+         
+          },
+          "y": {
+            "field": "Event",
+            "title": "Event",
+            "sort": {"field": "Disaster"}
+            
+          },
+          "color": {
+            "field": "CPI-Adjusted Estimated Cost (In Billions)",
+            "type": "quantitative",
+            "legend": null,
+            
+            "scale": {
+              "range": ["#cdd2ff", "#9999ff", "#82a8f4", "#4565b2", "#003366"]
+            }
+          },
+          "tooltip": [
+            {"field": "Summary", "type": "nominal", "title": "Event Summary"}
+          ]
+        }
+      }
+    ]
+  }
